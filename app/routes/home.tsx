@@ -9,6 +9,6 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return <main>
-
+    <h1 className="text-4xl font-bold mb-4">Welcome to Resumind</h1>
   </main>;
 }
